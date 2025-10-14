@@ -9,7 +9,7 @@ import { Navigation } from "@/components/navigation"
 import "./globals.css"
 
 const orbitron = Orbitron({
-  subsets: ["latin", "cyrillic"],
+  subsets: ["latin"],
   variable: "--font-orbitron",
   display: "swap",
 })
