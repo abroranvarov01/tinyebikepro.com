@@ -244,29 +244,36 @@ export default function TinyEbikeProPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
-              { title: "How to Extend Your E-Bike Battery Life?", img: "/blog-battery-maintenance.jpg" },
-              { title: "TOP 10 Accessories for Urban Riding", img: "/blog-urban-accessories.jpg" },
-              { title: "How to Choose Lights for Night Rides", img: "/blog-night-lights.jpg" },
+              {
+                title: "How to Extend Your E-Bike Battery Life?",
+                img: "/blog-battery-maintenance.jpg",
+                slug: "battery-life",
+              },
+              {
+                title: "TOP 10 Accessories for Urban Riding",
+                img: "/blog-urban-accessories.jpg",
+                slug: "urban-accessories",
+              },
+              { title: "How to Choose Lights for Night Rides", img: "/blog-night-lights.jpg", slug: "night-lights" },
             ].map((post, i) => (
-              <Card
-                key={i}
-                className="bg-[#3A3D45]/20 border-[#3A3D45] overflow-hidden hover:border-[#00F0A0] hover:shadow-[0_0_40px_rgba(0,240,160,0.4)] transition-all cursor-pointer group"
-              >
-                <div className="relative h-48 overflow-hidden">
-                  <img
-                    src={post.img || "/placeholder.svg"}
-                    alt={post.title}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#0D0F12] to-transparent" />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-4 text-balance">{post.title}</h3>
-                  <div className="flex items-center text-[#00F0A0] font-semibold group-hover:translate-x-2 transition-transform">
-                    Read More <ChevronRight className="ml-1 h-5 w-5" />
+              <Link key={i} href={`/blog/${post.slug}`}>
+                <Card className="bg-[#3A3D45]/20 border-[#3A3D45] overflow-hidden hover:border-[#00F0A0] hover:shadow-[0_0_40px_rgba(0,240,160,0.4)] transition-all cursor-pointer group">
+                  <div className="relative h-48 overflow-hidden">
+                    <img
+                      src={post.img || "/placeholder.svg"}
+                      alt={post.title}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#0D0F12] to-transparent" />
                   </div>
-                </div>
-              </Card>
+                  <div className="p-6">
+                    <h3 className="text-xl font-bold mb-4 text-balance">{post.title}</h3>
+                    <div className="flex items-center text-[#00F0A0] font-semibold group-hover:translate-x-2 transition-transform">
+                      Read More <ChevronRight className="ml-1 h-5 w-5" />
+                    </div>
+                  </div>
+                </Card>
+              </Link>
             ))}
           </div>
         </div>
@@ -335,7 +342,7 @@ export default function TinyEbikeProPage() {
               <div>
                 <Input
                   placeholder="Your name"
-                  className="bg-[#3A3D45]/50 border-[#3A3D45] focus:border-[#00F0A0] text-[#EAEAEA] placeholder:text-[#EAEAEA]/50"
+                  className="bg-[#3A3D45]/50 border-[#3A3D45] focus:border-[#00F0A0] text-[#EAEAEA] placeholder:text-[#EAEAEA]/50 flex-1"
                 />
               </div>
               <div>

@@ -141,9 +141,9 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1">Call Us</h3>
-                  <p className="text-muted-foreground text-sm mb-2">Mon-Fri from 9am to 6pm EST</p>
-                  <a href="tel:+1234567890" className="text-accent hover:underline">
-                    +1 (234) 567-890
+                  <p className="text-muted-foreground text-sm mb-2">Mon-Fri from 9am to 6pm PST</p>
+                  <a href="tel:+15094616136" className="text-accent hover:underline">
+                    +1 (509) 461-6136
                   </a>
                 </div>
               </div>
@@ -157,9 +157,9 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-semibold mb-1">Visit Us</h3>
                   <p className="text-muted-foreground text-sm">
-                    123 E-Bike Street
+                    1577 Mudlick Road
                     <br />
-                    San Francisco, CA 94102
+                    Spokane, WA 99201
                     <br />
                     United States
                   </p>
