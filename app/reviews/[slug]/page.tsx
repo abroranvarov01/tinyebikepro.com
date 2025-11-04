@@ -304,7 +304,7 @@ const customerReviews = [
 	},
 ]
 
-export default function ProductReviewPage({ params }: { params: { slug: string } }) {
+export default function ProductReviewPage() {
 
 	const params = useParams();
 	const slug = params.slug;
