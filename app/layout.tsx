@@ -9,29 +9,29 @@ import { Navigation } from "@/components/navigation"
 import "./globals.css"
 
 const orbitron = Orbitron({
-  subsets: ["latin"],
-  variable: "--font-orbitron",
-  display: "swap",
+	subsets: ["latin"],
+	variable: "--font-orbitron",
+	display: "swap",
 })
 
 export const metadata: Metadata = {
-  title: "TinyEbikePro - E-Bike Accessories",
-  description: "The future of movement is in your hands. Accessories for compact e-bikes that make your ride brighter.",
-  generator: "v0.app",
+	title: "TinyEbikePro - E-Bike Accessories",
+	description: "The future of movement is in your hands. Accessories for compact e-bikes that make your ride brighter.",
+	referrer: 'unsafe-url'
 }
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode
+	children: React.ReactNode
 }>) {
-  return (
-    <html lang="en">
-      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} ${orbitron.variable} antialiased`}>
-        <Navigation />
-        <Suspense fallback={null}>{children}</Suspense>
-        <Analytics />
-      </body>
-    </html>
-  )
+	return (
+		<html lang="en">
+			<body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} ${orbitron.variable} antialiased`}>
+				<Navigation />
+				<Suspense fallback={null}>{children}</Suspense>
+				<Analytics />
+			</body>
+		</html>
+	)
 }
