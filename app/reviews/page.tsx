@@ -132,7 +132,7 @@ export default function ReviewsPage() {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           <Card className="p-6 bg-card/50 backdrop-blur-sm border-accent/20 hover:border-accent/40 transition-all">
             <div className="text-center">
               <div className="text-4xl font-bold text-accent mb-2">4.8</div>
@@ -156,7 +156,7 @@ export default function ReviewsPage() {
               <p className="text-sm text-muted-foreground">Recommend Rate</p>
             </div>
           </Card>
-        </div>
+        </div> */}
 
         {/* Product Reviews Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

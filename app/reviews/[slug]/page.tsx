@@ -17,7 +17,7 @@ const products = {
 		price: "$22.99",
 		category: "Lighting",
 		image: "https://m.media-amazon.com/images/I/716dr6oRGML._AC_SX679_.jpg",
-		amazonUrl: "https://www.amazon.com/BLITZU-Rechargeable-Powerful-Headlight-Flashlight/dp/B014QEWX2I",
+		amazonUrl: "https://amzn.to/4oT3uTY",
 		description:
 			"Illuminate your ride with the BLITZU Bike Lights set, featuring a super bright USB-C rechargeable LED headlight, taillight, and bell. Designed for ultimate safety, this waterproof set ensures superior visibility for night riding, making it ideal for men, women, and kids on road or mountain bikes.",
 		features: [
@@ -48,7 +48,7 @@ const products = {
 		price: "$94.98",
 		category: "Security",
 		image: "https://m.media-amazon.com/images/I/71p7CjjZJdL._AC_SX679_.jpg",
-		amazonUrl: "https://www.amazon.com/FoldyLock-Compact-Folding-Bike-Lock/dp/B0C7QV339C",
+		amazonUrl: "https://amzn.to/47E5M2i",
 		description:
 			"Secure your bike with the award-winning Seatylock FoldyLock Compact. This lightweight, high-security folding lock is bolt cutter, drill, and saw-proof, offering peace of mind for urban and outdoor cycling. Includes keys and a carrying case for easy transport.",
 		features: [
@@ -77,7 +77,7 @@ const products = {
 		price: "$19.99",
 		category: "Accessories",
 		image: "https://m.media-amazon.com/images/I/61fC18PiL9L._AC_SX679_.jpg",
-		amazonUrl: "https://www.amazon.com/Lamicall-Motorcycle-Phone-Mount-Holder/dp/B0CNT3S8WD/",
+		amazonUrl: "https://amzn.to/4hH1pbb",
 		description:
 			"Navigate effortlessly with the Lamicall Bike Phone Holder. This handlebar-mounted clamp securely holds phones up to 7 inches, offering a shock-absorbing grip and 360° rotation for perfect viewing angles. Ideal for motorcycles, scooters, and bicycles.",
 		features: [
@@ -106,7 +106,7 @@ const products = {
 		price: "$49.99",
 		category: "Storage",
 		image: "https://m.media-amazon.com/images/I/71LMuwVgDBL._AC_SX679_.jpg",
-		amazonUrl: "https://www.amazon.com/ROCKBROS-Panniers-Accessories-Shoulder-Capacity/dp/B07PD2MP59",
+		amazonUrl: "https://amzn.to/4olldDo",
 		description:
 			"Carry your essentials with the ROCKBROS Bike Panniers. Designed for durability and convenience, these large-capacity bags feature a shoulder strap and reflective strips for safety. Perfect for commuting or long-distance cycling.",
 		features: [
@@ -135,7 +135,7 @@ const products = {
 		price: "$14.99",
 		category: "Safety",
 		image: "https://m.media-amazon.com/images/I/61FuJOOtAcL._AC_SX679_.jpg",
-		amazonUrl: "https://www.amazon.com/Adjustable-Handlebar-Shatterproof-Universal-Compatible/dp/B0DXBPV1HY",
+		amazonUrl: "https://amzn.to/43bqPaY",
 		description:
 			"Stay aware of your surroundings with the Adjustable Handlebar Mirror. Its shatterproof convex design provides a wide-angle view, enhancing safety for urban and trail riders. Easy to install and universally compatible with most bikes.",
 		features: [
@@ -163,7 +163,7 @@ const products = {
 		price: "$59.99",
 		category: "Storage",
 		image: "https://m.media-amazon.com/images/I/71fOQPwihXL._AC_SX679_.jpg",
-		amazonUrl: "https://www.amazon.com/ROCKBROS-Release-Luggage-Mountain-Capacity/dp/B08LCQXJXG",
+		amazonUrl: "https://amzn.to/47DfpxV",
 		description:
 			"Haul your gear with ease using the ROCKBROS Quick Release Luggage Rack. Built from durable aluminum, this rack supports heavy loads and features a quick-release system for easy installation. Ideal for mountain bikes and commuting.",
 		features: [
@@ -192,7 +192,7 @@ const products = {
 		price: "$29.99",
 		category: "Safety",
 		image: "https://m.media-amazon.com/images/I/61kIG8Tdj8L._AC_SX679_.jpg",
-		amazonUrl: "https://www.amazon.com/Signals-Bicycles-Charging-Integrated-Waterproof/dp/B0CLGXN3D5",
+		amazonUrl: "https://amzn.to/48XvTn2",
 		description:
 			"Signal your intentions with these Wireless Bike Turn Signals. Featuring USB-rechargeable LED lights, these waterproof signals enhance visibility in low-light conditions. Easy to install and perfect for safer commuting.",
 		features: [
@@ -221,7 +221,7 @@ const products = {
 		price: "$84.97",
 		category: "Comfort",
 		image: "https://m.media-amazon.com/images/I/41gYmv1WXuL._AC_SX679_.jpg",
-		amazonUrl: "https://www.amazon.com/AVENTON-Advanced-Suspension-seatpost-Mountain/dp/B0D3LKLC6R",
+		amazonUrl: "https://amzn.to/3LI7EPX",
 		description:
 			"Experience unmatched comfort with the AVENTON Advanced Suspension Bike Seat Post. Its patented parallelogram mechanism offers 50mm of travel to absorb bumps, ideal for road, mountain, and e-bikes. Includes a dust sleeve for low maintenance.",
 		features: [
@@ -250,7 +250,7 @@ const products = {
 		price: "$19.99",
 		category: "Comfort",
 		image: "https://m.media-amazon.com/images/I/810aDWIek+L._AC_SX679_.jpg",
-		amazonUrl: "https://www.amazon.com/Wittkop-Innovative-Ergonomic-Optimized-Handlebar/dp/B0C7L64VQ4",
+		amazonUrl: "https://amzn.to/4oLrtUS",
 		description:
 			"Upgrade your ride with Wittkop Bike Grips, featuring an innovative 3-zone ergonomic design made in Germany. These non-slip grips reduce wrist pain and enhance comfort, perfect for long rides on mountain or road bikes.",
 		features: [
@@ -274,35 +274,35 @@ const products = {
 	},
 }
 
-const customerReviews = [
-	{
-		name: "Alex Thompson",
-		rating: 5,
-		date: "March 15, 2024",
-		review:
-			"Absolutely brilliant! The brightness is incredible and the battery lasts for hours. Perfect for my night commutes through the city. The neon glow effect is a nice touch too!",
-		helpful: 24,
-		verified: true,
-	},
-	{
-		name: "Sarah Chen",
-		rating: 5,
-		date: "March 12, 2024",
-		review:
-			"Best investment I've made for my e-bike. The quality is outstanding and it works exactly as advertised. Installation was super easy too.",
-		helpful: 18,
-		verified: true,
-	},
-	{
-		name: "Mike Rodriguez",
-		rating: 4,
-		date: "March 10, 2024",
-		review:
-			"Great product overall. Does exactly what it's supposed to do. Only minor complaint is I wish it came in more color options, but that's just personal preference.",
-		helpful: 15,
-		verified: true,
-	},
-]
+// const customerReviews = [
+// 	{
+// 		name: "Alex Thompson",
+// 		rating: 5,
+// 		date: "March 15, 2024",
+// 		review:
+// 			"Absolutely brilliant! The brightness is incredible and the battery lasts for hours. Perfect for my night commutes through the city. The neon glow effect is a nice touch too!",
+// 		helpful: 24,
+// 		verified: true,
+// 	},
+// 	{
+// 		name: "Sarah Chen",
+// 		rating: 5,
+// 		date: "March 12, 2024",
+// 		review:
+// 			"Best investment I've made for my e-bike. The quality is outstanding and it works exactly as advertised. Installation was super easy too.",
+// 		helpful: 18,
+// 		verified: true,
+// 	},
+// 	{
+// 		name: "Mike Rodriguez",
+// 		rating: 4,
+// 		date: "March 10, 2024",
+// 		review:
+// 			"Great product overall. Does exactly what it's supposed to do. Only minor complaint is I wish it came in more color options, but that's just personal preference.",
+// 		helpful: 15,
+// 		verified: true,
+// 	},
+// ]
 
 export default function ProductReviewPage() {
 
@@ -450,53 +450,7 @@ export default function ProductReviewPage() {
 				</Card>
 
 				{/* Customer Reviews */}
-				<div className="mb-12">
-					<h2 className="text-2xl font-orbitron font-bold mb-6">Customer Reviews</h2>
-					<div className="space-y-6">
-						{customerReviews.map((review, index) => (
-							<Card
-								key={index}
-								className="p-6 bg-card/50 backdrop-blur-sm border-accent/20 hover:border-accent/40 transition-all"
-							>
-								{/* Header */}
-								<div className="flex items-start justify-between mb-4">
-									<div>
-										<div className="flex items-center gap-2 mb-1">
-											<h3 className="font-semibold">{review.name}</h3>
-											{review.verified && <Badge className="bg-accent/20 text-accent text-xs">Verified Purchase</Badge>}
-										</div>
-										<div className="flex items-center gap-2">
-											<div className="flex items-center gap-1">
-												{[...Array(5)].map((_, i) => (
-													<Star
-														key={i}
-														className={`w-4 h-4 ${i < review.rating ? "fill-yellow-400 text-yellow-400" : "text-muted-foreground"
-															}`}
-													/>
-												))}
-											</div>
-											<div className="flex items-center gap-1 text-xs text-muted-foreground">
-												<Calendar className="w-3 h-3" />
-												{review.date}
-											</div>
-										</div>
-									</div>
-								</div>
 
-								{/* Review Text */}
-								<p className="text-muted-foreground mb-4 leading-relaxed">{review.review}</p>
-
-								{/* Footer */}
-								<div className="flex items-center gap-4 pt-4 border-t border-accent/10">
-									<button className="flex items-center gap-2 text-sm text-muted-foreground hover:text-accent transition-colors">
-										<ThumbsUp className="w-4 h-4" />
-										Helpful ({review.helpful})
-									</button>
-								</div>
-							</Card>
-						))}
-					</div>
-				</div>
 			</div>
 		</div>
 	)
